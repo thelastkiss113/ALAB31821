@@ -1,0 +1,44 @@
+body {
+    background-color: #ffd58e;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 4em;
+    text-shadow: 2px 2px 0 #ff9b5a, 4px 4px 0 #f26249;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.button {
+    background-color: #f26249;
+    border: 2px solid #ffd58e;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ffd58e;
+    color: #f26249;
+    transform: scale(1.1);
+}
+
+.psychedelic-background {
+    background: radial-gradient(circle, #52b3b6, #ec2f3b);
+    padding: 20px;
+    border-radius: 10px;
+    
+}

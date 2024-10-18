@@ -13,6 +13,11 @@ app.get("/about", (req, res) => {
     res.render("about"); // Render about.ejs
 });
 
+app.get("/contact", (req, res) => {
+    const name = "Name";
+    res.render("contact", {name});
+});
+
 
 app.post("/submit", (req, res) => {
     console.log(req.body);
@@ -56,3 +61,5 @@ app.get("/download", (req, res) => {
     const file = `${__dirname}/public/sunflower.jpg`; 
     res.download(file); 
 });
+
+app.use(express.static('styles'));
